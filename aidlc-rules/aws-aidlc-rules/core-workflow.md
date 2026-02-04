@@ -95,7 +95,7 @@ The AI model intelligently assesses what stages are needed based on:
 2. Load all steps from `inception/reverse-engineering.md`
 3. Execute reverse engineering:
    - Analyze all packages and components
-   - Generate a busienss overview of the whole system covering the business transactions
+   - Generate a business overview of the whole system covering the business transactions
    - Generate architecture documentation
    - Generate code structure documentation
    - Generate API documentation
