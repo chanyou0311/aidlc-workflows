@@ -198,6 +198,13 @@ This stage generates code for each unit of work through two integrated parts:
 - **STORY TRACEABILITY**: Mark unit stories [x] when functionality is implemented
 - **RESPECT DEPENDENCIES**: Only implement when unit dependencies are satisfied
 
+### Automation Friendly Code Rules
+When generating UI code (web, mobile, desktop), ensure elements are automation-friendly:
+- Add `data-testid` attributes to interactive elements (buttons, inputs, links, forms)
+- Use consistent naming: `{component}-{element-role}` (e.g., `login-form-submit-button`, `user-list-search-input`)
+- Avoid dynamic or auto-generated IDs that change between renders
+- Keep `data-testid` values stable across code changes (only change when element purpose changes)
+
 ## Completion Criteria
 - Complete unit code generation plan created and approved
 - All steps in unit code generation plan marked [x]
